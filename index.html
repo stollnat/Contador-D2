@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: burlywood;
+            color: black;
+            display: grid;
+            min-height: 100vh;
+            place-items: center;
+        }
+
+        section {
+        background: rgba(38, 2, 54, 0.2);
+        padding: 30px;
+        border-radius: 10px;
+        text-align: center;
+      }
+
+        button {
+            color: black;
+            background-color: bisque;
+
+        }
+        p {
+            font-size: 130px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Contador</h1>
+        <p>0</p>
+        <button onclick="aumentar()">Mais</button>
+        <button onclick="zerar()">Zerar</button>
+        <button onclick="diminuir()">Menos</button>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
